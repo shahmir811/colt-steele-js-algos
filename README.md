@@ -32,3 +32,15 @@ For real time testing, run the following command inside **exercies** folder:
 ```bash
 jest problem/test --watch
 ```
+
+## Problem solving patterns
+
+Learned following different patterns that helps to solve algo problems:
+
+- Frequency pattern
+- Multiple pointers
+- Sliding window
+- Divide and conquer
+- Dynamic programming
+- Greedy algorithms
+- Backtracking
