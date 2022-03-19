@@ -1,6 +1,9 @@
 // write a function called countUniqueValues which accepts a sorted array and counts the unique values in the array.
 // There can be negative values in the array but the array will always be sorted.
 
+// *********************************************************************** //
+// Following is a best approach. Time complexity - O(n)
+
 const countUniqueValues = arr => {
 	if (arr.length === 0) return 0;
 	let i = 0;
