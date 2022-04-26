@@ -1,3 +1,6 @@
+// For reversing a LinkedList, you can check the following video:
+// https://www.youtube.com/watch?v=UCv-EmtvPe4&ab_channel=TheCodeCreative
+
 class Node {
 	constructor(val) {
 		this.val = val;
