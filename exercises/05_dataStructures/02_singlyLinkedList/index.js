@@ -1,5 +1,8 @@
-// For reversing a LinkedList, you can check the following video:
+// 1 - For reversing a LinkedList, you can check the following video:
 // https://www.youtube.com/watch?v=UCv-EmtvPe4&ab_channel=TheCodeCreative
+
+// 2 - For rotating a linked list, kindly check the following problem:
+// https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/quiz/4413070#notes
 
 class Node {
 	constructor(val) {
@@ -119,6 +122,23 @@ class SinglyLinkedList {
 		}
 		return this;
 	}
+
+	rotate(times) {
+		times = times % this.length;
+		if (times === 0) return this;
+		else {
+			let oldHead = this.head;
+			let prev;
+			if (times < 0) prev = this.get(this.length + times - 1);
+			else if (times > 0) prev = this.get(times - 1);
+			this.head = prev.next;
+			prev.next = null;
+			this.tail.next = oldHead;
+			this.tail = prev;
+		}
+		return this;
+	}
+
 	print() {
 		let arr = [];
 		let current = this.head;
