@@ -74,6 +74,21 @@ class Queue {
 		this.size--;
 		return temp.val;
 	}
+
+	print() {
+		let arr = [];
+		let current = this.first;
+		while (current) {
+			arr.push(current.val);
+			current = current.next;
+		}
+		console.log(arr);
+	}
 }
 
 let q3 = new Queue();
+q3.enqueue(5);
+q3.enqueue(10);
+q3.enqueue(15);
+q3.enqueue(20);
+q3.enqueue(25);

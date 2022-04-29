@@ -70,6 +70,21 @@ class Stack {
 		this.size--;
 		return temp.val;
 	}
+
+	print() {
+		let arr = [];
+		let current = this.first;
+		while (current) {
+			arr.push(current.val);
+			current = current.next;
+		}
+		console.log(arr);
+	}
 }
 
 let st = new Stack();
+st.push(5);
+st.push(10);
+st.push(15);
+st.push(20);
+st.push(25);
