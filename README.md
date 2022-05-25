@@ -49,13 +49,14 @@ Learned following different patterns that helps to solve algo problems:
 
 Covered the following sorting problems:
 
-| Type | Time Complexity |
-| Bubble Sort | O(n^2) |
-| Selection Sort | O(n^2) |
-| Insertion Sort | O(n^2) |
-| Merge Sort | O(n log n) |
-| Quick Sort | O(n log n) |
-| Radix Sort | O(n log n) |
+| Type           | Time Complexity |
+| -------------- | --------------- |
+| Bubble Sort    | O(n^2)          |
+| Selection Sort | O(n^2)          |
+| Insertion Sort | O(n^2)          |
+| Merge Sort     | O(n log n)      |
+| Quick Sort     | O(n log n)      |
+| Radix Sort     | O(n log n)      |
 
 ## Data Structures
 
