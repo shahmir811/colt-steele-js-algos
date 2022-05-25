@@ -44,3 +44,31 @@ Learned following different patterns that helps to solve algo problems:
 - Dynamic programming
 - Greedy algorithms
 - Backtracking
+
+## Sorting
+
+Covered the following sorting problems:
+
+| Type | Time Complexity |
+| Bubble Sort | O(n^2) |
+| Selection Sort | O(n^2) |
+| Insertion Sort | O(n^2) |
+| Merge Sort | O(n log n) |
+| Quick Sort | O(n log n) |
+| Radix Sort | O(n log n) |
+
+## Data Structures
+
+Covered the following data structure topics:
+
+- Classes in Javascript
+- Singly Linked List
+- Doubly Linked List
+- Stacks
+- Queues
+- Binary Search Trees (BSTs)
+- Tree Traversal (Breadth-first and Dept-first)
+- Heaps
+- Hash Tables
+- Graphs
+- DIJKSTRA'S Algorithm
