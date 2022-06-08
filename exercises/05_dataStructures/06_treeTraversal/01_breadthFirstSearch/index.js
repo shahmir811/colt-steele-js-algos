@@ -80,6 +80,20 @@ class BinarySearchTree {
 		}
 		return data;
 	}
+
+	// Following is the code of Andrei Neagoi
+	bfsRecursive(queue, data) {
+		if (!queue.length) {
+			return data;
+		}
+		const node = queue.shift();
+		data.push(node.value);
+
+		if (node.left) queue.push(node.left);
+		if (node.right) queue.push(node.right);
+
+		return this.bfsRecursive(queue, data);
+	}
 }
 
 let tree = new BinarySearchTree();
@@ -89,3 +103,6 @@ tree.insert(15);
 tree.insert(3);
 tree.insert(8);
 tree.insert(20);
+
+tree.bfs();
+tree.bfsRecursive([tree.root], []);

@@ -1,4 +1,5 @@
 // PSEUDOCODE OF DEPTH-FIRST PRE-ORDER SEARCH
+// Remeber: It is easy to recreate a BST with pre-order search result.
 
 // 1 - Create a data array to store the values of nodes visited.
 // 2 - Store the root of the BST in a variable called current.

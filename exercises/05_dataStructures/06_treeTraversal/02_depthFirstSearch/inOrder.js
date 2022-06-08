@@ -1,4 +1,5 @@
 // PSEUDOCODE OF DEPTH-FIRST POST-ORDER SEARCH
+// Remember: In-order search returns a sorted array
 
 // 1 - Create a data array to store the values of nodes visited.
 // 2 - Store the root of the BST in a variable called current.

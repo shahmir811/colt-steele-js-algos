@@ -4,6 +4,9 @@
 // 3 - If array[j] > array[j + 1], swap those two values
 // 4 - Return the sorted array
 
+// REMEMBER:
+// Insertiong sort is useful when you are pretty sure that the list is almost sorted.
+
 // ***************************************************************
 // Time complexity - O(n^2)
 
