@@ -1,5 +1,11 @@
-// Will implement PriorityQueue as a MinBinaryHeap
+class Node {
+	constructor(val, priority) {
+		this.val = val;
+		this.priority = priority;
+	}
+}
 
+// Will implement PriorityQueue as a MinBinaryHeap
 class PriorityQueue {
 	constructor() {
 		this.values = [];
@@ -61,13 +67,6 @@ class PriorityQueue {
 			this.values[swap] = element;
 			idx = swap;
 		}
-	}
-}
-
-class Node {
-	constructor(val, priority) {
-		this.val = val;
-		this.priority = priority;
 	}
 }
 
