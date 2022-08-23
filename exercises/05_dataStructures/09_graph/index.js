@@ -150,4 +150,4 @@ g.addEdge('B', 'D');
 g.addEdge('C', 'E');
 g.addEdge('D', 'E');
 g.addEdge('D', 'F');
-g.addEdge('E', 'E');
+g.addEdge('E', 'F');
