@@ -64,3 +64,7 @@ tree.insert(11);
 tree.insert(2);
 tree.insert(16);
 tree.insert(7);
+
+//                          10
+//                5                   13
+//           2         7         11         16

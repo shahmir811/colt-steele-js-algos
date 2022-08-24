@@ -151,3 +151,13 @@ g.addEdge('C', 'E');
 g.addEdge('D', 'E');
 g.addEdge('D', 'F');
 g.addEdge('E', 'F');
+
+//             A
+//         /       \
+//        B         C
+//        |         |
+//        |         |
+//        D ------- E
+//         \       /
+//             F
+//
