@@ -26,9 +26,9 @@ const radixSort = num => {
 
 		// placing each letter in the corresponding bucket based on the digit
 		for (let i = 0; i < num.length; i++) {
-			const digit = getDigit(num[i], k);
-			const bucket = digitBuckets[digit];
-			bucket.push(num[i]);
+			const digit = getDigit(num[i], k); // getDigit(12345, 2) -> 3
+			const bucket = digitBuckets[digit]; // bucket -> 3
+			bucket.push(num[i]); // Push the number in third bucket
 		}
 
 		// combining/concating the items back to num array

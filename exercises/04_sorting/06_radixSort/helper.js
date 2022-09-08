@@ -30,7 +30,7 @@ const getDigit = (num, place) => {
 // Following is my solution
 
 // const digitCount = num => {
-// 	return num.toString().length;
+// 	return Math.abs(num).toString().length;
 // };
 
 // Following is Colt Steele solution
