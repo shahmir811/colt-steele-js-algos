@@ -6,9 +6,9 @@ const buildPrefixTable = s => {
 		// If characters match, then the repeating prefix-suffix pair
 		// gets longer by 1 character
 		if (s[i] === s[j]) {
-			j += 1;
+			j++;
 			table[i] = j;
-			i += 1;
+			i++;
 		} else if (j > 0) {
 			// If the characters do no match, and we have repetition
 			// in suffix and prefix, we still need to check
@@ -18,7 +18,7 @@ const buildPrefixTable = s => {
 			// When the characters don't match and no repeating
 			// suffix-prefix pair, then we can move on
 			table[i] = 0;
-			i += 1;
+			i++;
 		}
 	}
 	return table;
@@ -33,15 +33,15 @@ const kmpSearch = (string, substring) => {
 	while (i < string.length && j < substring.length) {
 		if (string[i] === substring[j]) {
 			// if characters match, we can move to check next characters
-			i += 1;
-			j += 1;
+			i++;
+			j++;
 		} else if (j > 0) {
 			// when characters do not match, and we have a repeating
 			// suffix-prefix pair, we still need to check after the prefix
 			j = prefixTable[j - 1];
 		} else {
 			// if characters do no match, and no repetition, we can move on
-			i += 1;
+			i++;
 		}
 	}
 	return j === substring.length ? i - j : -1;
