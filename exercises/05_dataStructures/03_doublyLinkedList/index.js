@@ -180,3 +180,5 @@ let ll = new DoublyLinkedList();
 ll.push(10);
 ll.push(20);
 ll.push(30);
+ll.push(40);
+ll.push(50);
